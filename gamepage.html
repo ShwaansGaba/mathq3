@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+<h2 id="PLAYER1NAME"></h2><span id="PLAYER1SCORE"></span>
+<br><br>
+<h2 id="PLAYER2NAME"></h2><span id="PLAYER2SCORE"></span>
+
+<div class="container">
+	<center>
+		<h2 style="color: white;">Math Quiz</h2>
+        <h2 id="Questionturn"></h2>
+		<h2 id="Answerturn"></h2>
+		<div id="output"></div>
+
+		<br>
+		<br>
+
+		<label>Send Your question: <b style="color: red"></b></label>
+<input id="firstinput"  placeholder="Enter 1st number" type="text"><span><input id="secondinput"  placeholder="Enter 2st number" type="text"></span>
+		<br>
+<button class="btn btn-success" onclick="send()">Send</button>
+	</center>
+</div>
+
+<script src="gamepage.js"></script>
+</body>
+</html>
